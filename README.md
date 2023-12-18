@@ -4,7 +4,7 @@
 
 ## Getting Started
 
-After cloning the repository, create a conda environment for Python 3 using the requirements.txt file:
+After cloning the repository, create a conda environment for Python 3 using the `requirements.txt` file:
 ```
 conda create --name <env_name> --file requirements.txt
 ```
