@@ -39,7 +39,7 @@ After Step 1 is complete, run `base_articles_extraction.py` to extract the artic
 ```
 python base_articles_extraction.py
 ```
-Be sure to create the `./base_articles directory` first!
+Be sure to create the `./base_articles` directory first!
 
 ## Step 3. Generate pairs of snippets for each cluster in the dataset
 
