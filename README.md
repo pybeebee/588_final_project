@@ -16,8 +16,8 @@ where `<env_name>` is your name of choice for the conda environment.
 
 ## Using this repo
 The results for this project can be reproduced using the following steps:
-1. Download newshead data
-2. Extract the newshead articles
+1. Download NewSHead data
+2. Extract the NewSHead articles
 3. Generate pairs of snippets for each cluster in the dataset
 4. Use the snippets to generate instruction generation prompts and run inference on a generator model of choice to obtain instructions
 5. Curate the instructions using a selector model of choice
@@ -27,13 +27,13 @@ The results for this project can be reproduced using the following steps:
 
 We walk through each of these steps below.
 
-## Step 1. Download newshead data
+## Step 1. Download NewSHead data
 
 Download the cleaned NewSHead dataset from [here](https://storage.googleapis.com/primer_summ/newshead_data.tar.gz) and unzip the .tar.gz file in the base directory:
 ```
 tar -xvf newshead_data.tar.gz
 ```
-## Step 2. Extract the newshead articles
+## Step 2. Extract the NewSHead articles
 
 After Step 1 is complete, run `base_articles_extraction.py` to extract the articles for use in Step 3. 
 ```
