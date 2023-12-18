@@ -1,5 +1,5 @@
 # Training LLMs to Leverage Long-Range Dependencies in Multi-Document Settings
-
+### CPSC 588 Final Project: Fall 2023
 -----
 
 ## Getting Started
@@ -99,3 +99,7 @@ Evaluation on ZeroSCROLLS, MultiNews, HotpotQA, and/or CNN/DM can be run using:
 python evaluate_longt5b.py --model_dir=<model_dir>
 ```
 where `<model_dir>` is the directory to the model checkpoint you’d like to use. 
+
+## Final Notes
+
+To print statistics regarding how many instructions of each type have been generated/curated, you can use/modify the file `get_dataset_stats.py` to fit your needs.
