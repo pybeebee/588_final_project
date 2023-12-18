@@ -25,6 +25,7 @@ The results for this project can be reproduced using the following steps:
 7. Use the generated dataset to instruction-tune LongT5-Base
 8. Evaluate the instruction-tuned model on a dataset of choice
 
+We walk through each of these steps below.
 
 ## Step 1. Download newshead data
 
