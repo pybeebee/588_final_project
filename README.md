@@ -5,12 +5,14 @@
 ## Getting Started
 
 After cloning the repository, create a conda environment for Python 3 using the requirements.txt file:
-
-`conda create --name <env_name> --file requirements.txt`
-
+```
+conda create --name <env_name> --file requirements.txt
+```
 Activate the conda environment by running:
-
-`conda activate <env_name>`
+```
+conda activate <env_name>
+```
+where `<env_name>` is your name of choice for the conda environment.
 
 ## Using this repo
 The results for this project can be reproduced using the following steps:
